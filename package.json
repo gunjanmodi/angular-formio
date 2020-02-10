@@ -16,6 +16,9 @@
     "test": "tsc && karma start",
     "test:watch": "karma start --auto-watch"
   },
+  "precommit": [
+    "build"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/formio/angular-formio"
